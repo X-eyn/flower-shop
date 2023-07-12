@@ -1,0 +1,65 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    /* remove default margin */
+}
+
+.text-primary {
+    color: #E55473;
+}
+
+.banner {
+    background-color: rgba(229, 84, 115, 0.10);
+    display: flex;
+    /* apply flexbox layout */
+    justify-content: space-between;
+    /* align items on opposite ends */
+    padding-left: 20px;
+    /* add padding to the left */
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.head-title {
+    color: #272727;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.para {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    display: flex;
+    width: 634px;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.pic1 {
+    width: 635px;
+    height: 800px;
+    flex-shrink: 0;
+    margin: 50px 240px;
+}
+
+.bt-primary {
+    border: none;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 10px 20px;
+    gap: 10px;
+    color: white;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 20px; 
+    align-self: flex-start;
+
+}
