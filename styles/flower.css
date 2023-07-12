@@ -107,7 +107,54 @@ body {
 
 
 .deal-banner img {
-    width: auto; 
+    width: auto;
     height: auto;
     margin-right: 429px;
+}
+
+
+.instagram-section {
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.instagram-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.instagram-para {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    display: flex;
+    width: 594px;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.instagram-images {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.instagram-img {
+    border: none width: 342px;
+    height: 396px;
+    flex-shrink: 0;
 }
