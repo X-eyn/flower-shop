@@ -130,6 +130,7 @@ body {
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+    margin-top: 128px;
 }
 
 .instagram-para {
@@ -154,7 +155,92 @@ body {
 }
 
 .instagram-img {
-    border: none width: 342px;
+    border: none;
+    width: 342px;
     height: 396px;
     flex-shrink: 0;
+
+}
+
+
+
+.deals-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.deals-banner {
+    position: absolute;
+    margin-top: 128px;
+    width: 1440px;
+    height: 449px;
+    flex-shrink: 0;
+    border-radius: 8px;
+}
+
+.deals-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    color: #272727;
+
+}
+
+.deals-title {
+    color: #272727;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.deals-para {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.subscribe-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 48px;
+    
+
+}
+
+.subscribe-input {
+    width: 700px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: none;
+    
+}
+.subscribe-input::placeholder {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: left;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 22px;
+}
+
+
+.bt-primary-subscribe {
+    align-self: center;
+    margin-left: 12px;
+    height: 64px;
 }
