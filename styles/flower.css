@@ -1,7 +1,6 @@
 body {
     font-family: 'Lato', sans-serif;
     margin: 0;
-    /* remove default margin */
 }
 
 .text-primary {
@@ -11,17 +10,16 @@ body {
 .banner {
     background-color: rgba(229, 84, 115, 0.10);
     display: flex;
-    /* apply flexbox layout */
     justify-content: space-between;
-    /* align items on opposite ends */
     padding-left: 20px;
-    /* add padding to the left */
 }
 
 .text-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    width: auto;
 }
 
 .head-title {
@@ -29,6 +27,7 @@ body {
     font-size: 80px;
     font-style: normal;
     font-weight: 800;
+    margin-left: 240px;
 }
 
 .para {
@@ -40,6 +39,7 @@ body {
     width: 634px;
     flex-direction: column;
     flex-shrink: 0;
+    margin-left: 240px;
 }
 
 .pic1 {
@@ -53,13 +53,61 @@ body {
     border: none;
     border-radius: 8px;
     background: #E55473;
-    padding: 10px 20px;
+    padding: 20px 43px;
     gap: 10px;
     color: white;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
-    margin-top: 20px; 
-    align-self: flex-start;
+    margin-top: 20px;
+    margin-left: 240px;
+}
 
+.bt-primary-shop {
+    align-self: flex-start;
+}
+
+.bt-primary-signup {
+    align-self: center;
+}
+
+.deal-title {
+    color: #272727;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 200px;
+}
+
+.deal-para {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+    width: 594px;
+    flex-direction: column;
+    flex-shrink: 0;
+    margin-left: 200px;
+
+}
+
+.deal-banner {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 215px;
+}
+
+
+.deal-banner img {
+    width: auto; 
+    height: auto;
+    margin-right: 429px;
 }
